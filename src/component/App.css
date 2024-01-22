@@ -1,0 +1,468 @@
+
+
+
+
+
+:root{
+    --clr-primary:black;
+    --clr-secondary:white;
+  
+
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--clr-primary);
+}
+
+.bars1, .bars2, .bars3{
+    width: 28px;
+    height: 5px;
+    background-color: var(--clr-secondary);
+  
+}
+
+.bars9{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.navall{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.navall h1{
+    color: var(--clr-secondary);
+}
+
+.homeall{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   margin: auto;
+   margin-top: 70px;
+}
+
+
+.homeall h1, .classabout h1, .classproject h1, .classcontact h1{
+    font-size: 40px;
+}
+
+.img{
+    width: 100%;
+    
+}
+
+
+.po{
+    width: 100%;
+}
+
+.homeall p, .p1, .p2, .classcontact p{
+
+    font-size: 20px;
+}
+
+
+.hi, .front span{
+    color: green;
+}
+
+
+.touch{
+    padding: 15px;
+    width: 200px;
+    background: var(--clr-primary);
+    color: var(--clr-secondary);
+    border-color: green;
+    cursor: pointer;
+}
+
+
+.numbers{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    gap: 100px;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+
+.ok{
+    color: white;
+}
+
+
+.numbers Link{
+    text-decoration: none;
+    color: white;
+}
+
+
+.classabout{
+    color: var(--clr-secondary);
+   display: flex;
+   flex-direction: column;
+   gap: 20px; 
+   width: 50%;
+   margin: auto;
+   margin-top: 70px;
+}
+
+
+.ul1, .ul2{
+    display: flex;
+    gap: 40px;
+    font-size: 22px;
+    list-style-type: square;
+    margin-left: 10px;
+}
+
+
+li {
+    color: green;
+}
+
+li span{
+    color: white;
+}
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.p{
+    width: 100%;    
+}
+
+
+.img2{
+    width: 50%;
+    margin: auto; 
+}
+
+.ab div{
+    width: 90px;
+    height: 3px;
+    background: green;
+}
+.ab{
+    display: flex;
+    color: green;
+    gap: 10px;
+    align-items: center;
+}
+
+.ab h1{
+    font-size: 50px;
+}
+
+
+.classproject{
+    color: var(--clr-secondary);
+   display: flex;
+   flex-direction: column;
+   gap: 20px; 
+   width: 50%;
+   margin: auto;
+   margin-top: 70px;
+   height: 500px;
+  
+}
+
+.dep{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid  rgb(26, 26, 26);
+    padding: 15px;
+    margin-top: 20px;
+    transition: 0.6s;
+}
+
+.raga{
+    overflow-y: scroll;
+}
+
+.dep:hover{
+    transform: scale(1.1);
+    background-color: rgb(26, 26, 26);
+}
+
+.split{
+    display: flex;
+    gap: 20px;
+}
+
+.ico{
+    display: flex;
+    justify-content: space-between;
+}
+
+.down{
+    display: flex;
+    gap: 10px;
+
+}
+
+.dep span{
+    font-size: 22px;
+}
+.dep h2{
+    font-size: 27px;
+}
+
+.dep p{
+    font-size: 20px;
+}
+
+.classcontact{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   margin: auto;
+   margin-top: 70px;
+}
+
+.soci{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.soci span a{
+    color: white;
+}
+
+
+
+.dep span a{
+    color: white;
+}
+
+.numb{
+    position: absolute;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    margin: auto;
+    background:var(--clr-primary);
+    transition: 1s;
+
+}
+
+.and{
+    left:0;
+}
+
+
+.time{
+    color: white;
+    font-size: 30px;
+   cursor: pointer;
+   padding-bottom: 30px;
+  
+ 
+}
+
+
+.so{
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.so span a{
+    color: white;
+}
+
+@media screen and (max-width:800px) {
+
+    
+
+.bars1, .bars2, .bars3{
+    width: 26px;
+    height: 4px;
+    background-color: var(--clr-secondary);
+
+}
+
+.bars9{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+
+.navall{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.toti{
+    margin-left: 16px
+
+}
+
+
+.homeall{
+    width: 92%;
+}
+
+
+.homeall h1, .classabout h1, .classproject h1, .classcontact h1{
+    font-size: 32px;
+}
+
+.homeall p, .p1, .p2, .classcontact p{
+    font-size: 17px;
+}
+
+
+.touch{
+    padding: 12px;
+    width: 170px;
+}
+
+
+.numbers{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    gap: 50px;
+   justify-content: center;
+   margin-top: 50px;
+   padding-bottom: 30px;
+}
+
+.numbers h1:hover{
+    font-size: 50px;
+}
+
+
+.classabout{
+   width: 92%;
+}
+
+.ul1, .ul2{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    list-style-type: square;
+    margin-left: 10px;
+}
+
+
+
+.img2{
+    width: 60%;
+    margin: auto; 
+}
+
+
+.ab div{
+    width: 80px;
+    height: 2px;
+    background: green;
+}
+
+
+.classabout p{
+    font-size: 17px;
+}
+
+
+
+.classproject{
+   width: 92%;
+}
+
+
+.dep{
+    width: 92%;
+   
+}
+
+
+.dep span{
+    font-size: 20px;
+}
+.dep h2{
+    font-size: 23px;
+}
+
+.dep p{
+    font-size: 17px;
+}
+
+
+
+.classcontact{
+    width: 92%;
+}
+
+
+
+.soci{
+    font-size: 25px;
+}
+
+
+
+.time{
+    font-size: 25px;
+}
+
+
+.so{
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+   
+}
+
+.numb h1{
+    font-size: 28px;
+
+}
+
+}
