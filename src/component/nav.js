@@ -43,9 +43,9 @@ const Nav = () =>{
   
   
   <div className="so">
-            <span><a href="https://twitter.com/ToluAyobami?s=09"><FaTwitter/></a></span>
-            <span><a href="https://tolu-ayobami.github.io"><FaGithub/></a></span> 
-             <span><a href="https://www.linkedin.com/intolu-ayobami-126441221"><FaLinkedin/></a></span>
+           <span><a href="https://x.com/Ayobamit9?s=08"><FaTwitter/></a></span>
+                      <span><a href="https://github.com/tolu-ayobami"><FaGithub/></a></span> 
+                       <span><a href="https://www.linkedin.com/in/tolu-ayobami?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin/></a></span>
              
          </div>
 

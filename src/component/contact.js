@@ -21,16 +21,15 @@ const Contact =() =>{
         <div></div>
          </div>
 
-         <p>Please feel free to drop me a line if you dont get an answer immediately, i might just be traveling through the middle of nowhere i will get back to you as soon i can. That's a promise.</p>
-         <h2>Toluneymar@gmail.com</h2>
+         <p>Please feel free to drop me a line, if you dont get an answer immediately, i might just be traveling through the middle of nowhere.. i will get back to you as soon as i can. That's a promise.</p>
+         <h2>toluneymar@gmail.com</h2>
          <p>I'm just a call away </p>
          <h2>+2348109630874</h2>
 
          <div className="soci">
-            <span><a href="https://twitter.com/ToluAyobami?s=09"><FaTwitter/></a></span>
-            <span><a href="https://tolu-ayobami.github.io"><FaGithub/></a></span> 
-             <span><a href="https://www.linkedin.com/intolu-ayobami-126441221"><FaLinkedin/></a></span>
-             <span><a href=""><FaInstagram/></a></span>
+            <span><a href="https://x.com/Ayobamit9?s=08"><FaTwitter/></a></span>
+            <span><a href="https://github.com/tolu-ayobami"><FaGithub/></a></span> 
+             <span><a href="https://www.linkedin.com/in/tolu-ayobami?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin/></a></span>
          </div>
  
         </div>

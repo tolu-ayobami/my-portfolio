@@ -5,6 +5,7 @@ import { FaCode} from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 
 const review = [
     {
@@ -12,12 +13,13 @@ const review = [
         code:<FaCode/>,
         git:<FaGithub />,
         eye:<FaRegEye/>,
-        txt:"Game",
-        test:"Rock paper scissors",
-        html:<FaHtml5 />,
+        txt:"Music app",
+        test:"Music beatz",
+        html:<FaReact />,
         css:<FaCss3/>,
         js:<FaJs/>, 
-        url:"https://tolu-ayobami.github.io/my-website/rock paper scissors project/index.html", 
+        url1:"https://github.com/tolu-ayobami", 
+        url2:"https://musicbeatzap.netlify.app/" 
       },
 
       {
@@ -25,12 +27,13 @@ const review = [
         code:<FaCode/>,
         git:<FaGithub />,
         eye:<FaRegEye/>,
-        txt:"Sneakers",
-        test:"An E-commerce website",
-        html:<FaHtml5 />,
+        txt:"Movie website",
+        test:"A landing page for movie lovers",
+        html:<FaReact />,
         css:<FaCss3/>,
         js:<FaJs/>, 
-        url:"https://tolu-ayobami.github.io/my-website/e-commerce/index.html", 
+        url1:"https://github.com/tolu-ayobami", 
+        url2:"https://movie-webap.netlify.app/", 
       },
 
       {
@@ -38,17 +41,14 @@ const review = [
         code:<FaCode/>,
         git:<FaGithub />,
         eye:<FaRegEye/>,
-        txt:"Stockzo",
-        test:"A basic landing page",
+        txt:"Landing page",
+        test:"Apply better",
         html:<FaHtml5 />,
         css:<FaCss3/>,
         js:<FaJs/>, 
-        url:"https://tolu-ayobami.github.io/my-website/stocks project/index.html", 
+        url1:"https://github.com/tolu-ayobami", 
+        url2:"https://tolu-ayobami.github.io/my-website/apply%20better0/index.html", 
       },
-
-
-
-
 
 
       {
@@ -56,12 +56,12 @@ const review = [
         code:<FaCode/>,
         git:<FaGithub />,
         eye:<FaRegEye/>,
-        txt:"Game",
-        test:"Quiz game",
+        txt:"Movie app",
         html:<FaHtml5 />,
         css:<FaCss3/>,
         js:<FaJs/>, 
-        url:"https://tolu-ayobami.github.io/my-website/quiz project/index.html", 
+        url1:"https://github.com/tolu-ayobami", 
+        url2:"https://tolu-ayobami.github.io/movie-app/web%20app/login.html" 
       },
 
 
@@ -71,12 +71,13 @@ const review = [
         code:<FaCode/>,
         git:<FaGithub />,
         eye:<FaRegEye/>,
-        txt:"Fylo",
-        test:"A basic landing page",
+        txt:"Cart website",
+        test:"Cart items",
         html:<FaHtml5 />,
         css:<FaCss3/>,
         js:<FaJs/>, 
-        url:"https://tolu-ayobami.github.io/my-website/front-end mentor pro 1(0)/index.html", 
+        url1:"https://github.com/tolu-ayobami", 
+        url2:"https://cart-pro-24c.netlify.app/"
       },
 
 
@@ -85,12 +86,13 @@ const review = [
         code:<FaCode/>,
         git:<FaGithub />,
         eye:<FaRegEye/>,
-        txt:"Chat",
-        test:"Social medial chat clone",
+        txt:"Game",
+        test:"Quiz game",
         html:<FaHtml5 />,
         css:<FaCss3/>,
         js:<FaJs/>,
-        url:"https://tolu-ayobami.github.io/my-website/interactive section/index.html", 
+        url1:"https://github.com/tolu-ayobami", 
+        url2:"https://tolu-ayobami.github.io/my-website/quiz%20project/index.html" 
       },
 
       {
@@ -98,11 +100,13 @@ const review = [
         code:<FaCode/>,
         git:<FaGithub />,
         eye:<FaRegEye/>,
-        txt:"Validation",
-        test:"Password validation",
-        html:<FaHtml5 />,
+        txt:"Portfolio",
+        test:"My portfolio",
+        html:<FaReact />,
         css:<FaCss3/>,
         js:<FaJs/>, 
+        url1:"https://github.com/tolu-ayobami", 
+        url2:"https://tolu-ayobami-portfolio.netlify.app/", 
       },
 
       {
@@ -110,12 +114,12 @@ const review = [
         code:<FaCode/>,
         git:<FaGithub />,
         eye:<FaRegEye/>,
-        txt:"Dashboard",
-        test:"A basic landing page for social medial accounts",
-        html:<FaHtml5 />,
+        txt:"Atm card generator",
+        html:<FaReact />,
         css:<FaCss3/>,
         js:<FaJs/>, 
-        url:"https://tolu-ayobami.github.io/my-website/dashboard project/index.html", 
+        url1:"https://github.com/tolu-ayobami", 
+        url2:"https://atm-generator.netlify.app/", 
       },
 
       {
@@ -128,7 +132,8 @@ const review = [
         html:<FaHtml5 />,
         css:<FaCss3/>,
         js:<FaJs/>, 
-        url:"https://tolu-ayobami.github.io/clipboard/clipboard landing/index.html", 
+        url1:"https://github.com/tolu-ayobami", 
+        url2:"https://tolu-ayobami.github.io/clipboard/clipboard landing/index.html", 
       },
 
       {
@@ -136,12 +141,13 @@ const review = [
         code:<FaCode/>,
         git:<FaGithub />,
         eye:<FaRegEye/>,
-        txt:"Generator app",
-        test:"Advice generator app",
+        txt:"Game",
+        test:"Rock paper scissors",
         html:<FaHtml5 />,
         css:<FaCss3/>,
         js:<FaJs/>, 
-        url:"https://tolu-ayobami.github.io/my-website/advice generator/index.html", 
+        url1:"https://github.com/tolu-ayobami", 
+        url2:"https://tolu-ayobami.github.io/my-website/rock%20paper%20scissors%20project/index.html", 
       },
     ];
     

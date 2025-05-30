@@ -19,8 +19,8 @@ const Project =() =>{
                      <div className="ico">
                      <span>{tour.code}</span>
                      <div className="split">
-                     <span><a href="https://tolu-ayobami.github.io/my-website">{tour.git}</a></span>
-                     <span><a href={tour.url}>{tour.eye}</a></span>
+                     <span><a href={tour.url1}>{tour.git}</a></span>
+                     <span><a href={tour.url2}>{tour.eye}</a></span>
                          </div>
                          </div>
                          <h2>{tour.txt}</h2>
